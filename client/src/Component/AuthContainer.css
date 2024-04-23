@@ -1,0 +1,27 @@
+  .auth-buttons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 38px 36px;
+  }
+  
+  .auth-buttons button {
+    margin-right: 10px;
+    border-radius: 20px;
+    height: 60px;
+    width: 100px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+
+

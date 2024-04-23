@@ -1,0 +1,51 @@
+.homepage {
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+}
+
+.category-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.category-card {
+  margin-top: 200px;
+  width: 200px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ffaa00;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  transition: transform 0.3s ease-in-out;
+}
+
+.category-card:hover {
+  transform: scale(1.2);
+  background: #531def;
+
+}
+
+
+.category-card h3 {
+  margin-bottom: 10px;
+}
+
+.category-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.category-card button:hover {
+  background-color: #0056b3;
+}
+
+.category-card img {
+  width: 120px;
+  height: 100px;
+}

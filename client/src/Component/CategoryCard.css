@@ -1,0 +1,30 @@
+.category-card {
+  width: 200px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  transform: scale(1.3);
+}
+
+.category-card h3 {
+  margin-bottom: 10px;
+}
+
+.category-card img {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.category-card:hover {
+  transform: scale(1.3);
+}
